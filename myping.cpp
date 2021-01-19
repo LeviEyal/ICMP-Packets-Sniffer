@@ -28,7 +28,7 @@ unsigned short calculate_checksum(unsigned short * paddress, int len);
 int main ()
 {
     /*--------------------------------------------------------------------------------
-            ****************** Cooking the ICMP header: *********************
+            ******************* Cooking the ICMP header: *********************
     --------------------------------------------------------------------------------*/
     
     struct icmp icmphdr; // ICMP-header
